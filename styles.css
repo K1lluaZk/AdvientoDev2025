@@ -85,13 +85,27 @@ body::before {
   background-image: url("Imagenes/Copodenieve.png");
   background-repeat: repeat;
   background-size: 24px 24px; 
-  animation: snow 20s linear infinite;
+  animation: snow 15s linear infinite;
   pointer-events: none;
-  opacity: 0.4; 
+  opacity: 0.3; 
   z-index: 999;
 }
 
 @keyframes snow {
   from { background-position: 0 0; }
   to   { background-position: 0 1000px; }
+}
+
+.message {
+  background: linear-gradient(135deg, #b71c1c, #2e7d32); 
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.message:active {
+  transform: scale(0.95); 
 }
