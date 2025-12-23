@@ -82,7 +82,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0; 
-  background-image: url("Imagenes/Copodenieve.png");
+  background-image: url("Assets/Images/Copodenieve.png");
   background-repeat: repeat;
   background-size: 24px 24px; 
   animation: snow 15s linear infinite;
