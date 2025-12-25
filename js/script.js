@@ -1,3 +1,4 @@
+/*
 const button = document.getElementById("colorButton");
 const card = document.getElementById("card");
 
@@ -9,4 +10,4 @@ button.addEventListener("click", () => {
   index = (index + 1) % colors.length;        
 });
 
-
+*/
